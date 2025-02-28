@@ -4,22 +4,74 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Emre's Website</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .container {
+            background: white;
+            padding: 40px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            max-width: 600px;
+            width: 90%;
+        }
+        h1 {
+            color: #007bff;
+            font-size: 28px;
+        }
+        p {
+            font-size: 18px;
+            line-height: 1.6;
+        }
+        .links {
+            margin-top: 20px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 10px;
+        }
+        .links a {
+            display: inline-block;
+            background: #007bff;
+            color: white;
+            text-decoration: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            font-size: 16px;
+            transition: 0.3s ease-in-out;
+        }
+        .links a:hover {
+            background: #0056b3;
+        }
+    </style>
 </head>
 <body>
-    <h1>Welcome to My Website</h1>
-    <p>
-        I'm Emre, a software engineer with expertise in Python, C#, JavaScript, and Java.  
-        I have experience working with unstructured data, cloud platforms like Zoho, and technologies  
-        such as Spring Boot and Oracle databases. I enjoy solving complex problems, automating workflows,  
-        and continuously learning new tools. Outside of work, I have experience teaching and sharing knowledge on cybersecurity.  
-        I also have a deep interest in film and technology. Feel free to explore my content and connect with me through the links below.
-    </p>
-    
-    <p>
-        <a href="https://m-rayusa.blogspot.com/2015/08/izledigim-filmleri-not-etmem.html" target="_blank">My Blog on Movies</a>
-    </p>
-    <p>
-        <a href="https://www.youtube.com/@cmd.systemreset" target="_blank">My YouTube Channel</a>
-    </p>
+    <div class="container">
+        <h1>Welcome to My Website</h1>
+        <p>
+            I'm Emre, a software engineer with expertise in Python, C#, JavaScript, and Java.  
+            I have experience working with unstructured data, cloud platforms like Zoho, and technologies  
+            such as Spring Boot and Oracle databases. I enjoy solving complex problems, automating workflows,  
+            and continuously learning new tools. Outside of work, I have experience teaching and sharing knowledge on cybersecurity.  
+            I also have a deep interest in film and technology. Feel free to explore my content and connect with me through the links below.
+        </p>
+        
+        <div class="links">
+            <a href="https://m-rayusa.blogspot.com/2015/08/izledigim-filmleri-not-etmem.html" target="_blank">My Blog on Movies</a>
+            <a href="https://www.youtube.com/@cmd.systemreset" target="_blank">My YouTube Channel</a>
+            <a href="https://github.com/EmreKaragozUSA" target="_blank">My GitHub</a>
+            <a href="https://www.deviantart.com/commandsystemreset" target="_blank">My DeviantArt</a>
+        </div>
+    </div>
 </body>
 </html>
